@@ -8,7 +8,7 @@
 	
 	if ($input == $cap){
 		session_start();
-		$q = "select * from login";
+		$q = "select * from login where username='$user' && password='$pass'";
 		$proses = mysqli_query($conn,$q);
 		$row = mysqli_num_rows($proses);
 		if ($row > 0){

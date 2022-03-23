@@ -85,7 +85,7 @@
     </label>
   </div>
   <button type="submit" class="btn btn-primary">Submit</button>
-  <button href = "read.php">Lihat Data Buku</button>
+  <button href = "read.php">Lihat Data Mahasiswa</button>
 </form>
   </div>
 </body>
