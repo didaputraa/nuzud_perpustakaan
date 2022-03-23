@@ -11,7 +11,7 @@
     </nav>
     <form method = "POST" action = "form_create.php">
     <nav>
-    <input type = "submit" name = "tambah" value = "Tambah Data">
+    <input type = "button" onClick="window.location='form_create.php'" name = "tambah" value = "Tambah Data">
     </nav>
 
 	
